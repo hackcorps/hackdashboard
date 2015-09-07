@@ -35,6 +35,10 @@ body {
   color: white;
 }
 
+.container-fluid .jumbotron-secondary {
+  padding: 160px 300px;
+}
+
 .jumbotron h1 {
   font-weight: 400;
 }
@@ -110,4 +114,19 @@ body {
 
 .panel-overlay:hover {
   opacity: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+input.quote-email {
+  width: 630px !important;
+  margin-right: 20px;
+  border: none;
+  border-radius: 0;
+}
+
+.btn {
+  border-radius: 0;
 }
